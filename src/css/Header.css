@@ -1,0 +1,54 @@
+.header {
+    display: grid;
+    grid-template-columns: 250px auto 200px;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+    background: #a8c7fa22;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__left img {
+    cursor: pointer;
+}
+
+.header__middle {
+    display: flex;
+    flex: 0.7;
+}
+
+.header__middle .search_mail {
+    background-color: #eaf1fb;
+    border-radius: 24px;
+    display: flex;
+    flex: 0.7;
+    height: 46px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.search_mail input {
+    border: 0;
+    background: transparent;
+    outline: 0;
+    flex: 1;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+}
+
+.header__right .MuiAvatar-circular {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
